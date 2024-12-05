@@ -1,0 +1,7 @@
+{
+  "name": "courierInfo",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

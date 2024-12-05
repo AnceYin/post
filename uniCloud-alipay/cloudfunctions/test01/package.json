@@ -1,0 +1,9 @@
+{
+  "name": "test01",
+  "dependencies": {
+    "anti-content-common": "file:../common/anti-content-common"
+  },
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

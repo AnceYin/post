@@ -1,0 +1,10 @@
+{
+  "name": "refresh-duoduo-token-cookie",
+  "dependencies": {
+    "uni-config-center": "file:../../../uni_modules/uni-config-center/uniCloud/cloudfunctions/common/uni-config-center",
+    "anti-content-common": "file:../common/anti-content-common"
+  },
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

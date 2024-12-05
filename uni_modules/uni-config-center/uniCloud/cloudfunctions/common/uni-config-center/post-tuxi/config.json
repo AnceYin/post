@@ -1,0 +1,68 @@
+{
+	"getCourierInfo": [{
+		"method": "POST",
+		"url": "https://kdcsgateway.zt-express.com/gateway.do/",
+		"headers": {
+			"User-Agent": "Android:9 ;MI 9 ;Android; Version 4.38.2",
+			"Connection": "Keep-Alive",
+			"Accept-Encoding": "gzip",
+			"Content-Type": "application/x-www-form-urlencoded",
+			"X-Ca-Version": "5",
+			"X-Zop-Name": "tuxi.spm.stock.read.queryScanEnterInfoAppByCode",
+			"X-App-Version": "4.38.2",
+			"X-Ys-Dt": "01d6adc1eac348c2a1cafb6e17405f0d_dKGYyFLyAKFBXBVEAVPWBpxxk0bPGzMV",
+			"X-Sv-V": "com.zto.families.ztofamilies_4.38.2",
+			"x-device-id": "b746cb22-edd5-4200-8ef6-6d6585d5a835",
+			"X-Iam-Token": "从数据库拿token",
+			"X-Userid": "248453",
+			"X-Unionid": "union5SUmRfNUAEQ_98UAO7Xw0P_R"
+		},
+		"data": {
+			"data": {
+				"billCode": null,
+				"code": "从前端获取code",
+				"type": "从前端获取type，1:手机号，2:快递单号",
+				"dateRange": 1,
+				"depotCode": "KDCS39300264913",
+				"endDate": "2024-05-27 15:23:52",
+				"expressCompanyCode": null,
+				"grayFlag": "Y",
+				"leaveRemark": null,
+				"pageSize": 50,
+				"page": 1
+			}
+		}
+	}],
+	"refreshToken": [{
+		"method": "POST",
+		"url": "https://kdcsgateway.zt-express.com/gateway.do/",
+		"headers": {
+			"User-Agent": "Android:9 ;MI 9 ;Android; Version 4.38.2",
+			"Connection": "Keep-Alive",
+			"Accept-Encoding": "gzip",
+			"Content-Type": "application/x-www-form-urlencoded",
+			"X-Zop-Name": "tuxi.spm.account.accountLoginByPwd",
+			"X-Ca-Version": "1",
+			"X-App-Version": "4.38.2",
+			"X-Ys-Dt": "01d6adc1eac348c2a1cafb6e17405f0d_dKGYyFLyAKFBXBVEAVPWBpxxk0bPGzMV",
+			"X-Sv-V": "com.zto.families.ztofamilies_4.38.2",
+			"x-device-id": "b746cb22-edd5-4200-8ef6-6d6585d5a835"
+		},
+		"data": {
+			"authorization": "XnxuCcvxG7wKdlNcgBnNkrUhxLmohaf+LtctsRegxBdXyS7SzcyiMXuvPqs5ayH6uHnCuGEH/8GXRvN7zzO8A+w1X2yHJaL8uMNeOZcE6nkbcM5gbviLWdLVjqFu48IBLSL7VWH2j771e7QVG0411p5XcdFs7d0AquZlkXHvA+I=",
+			"deviceId": "b746cb22-edd5-4200-8ef6-6d6585d5a835",
+			"fromUrl": null,
+			"operatingSystem": null,
+			"platformName": "app",
+			"platformVersion": "4.38.2",
+			"redirectUrl": null,
+			"site": null,
+			"userAgent": null,
+			"verifyId": null
+		}
+	}],
+	"description":{
+		"getCourierInfo":"目前已知只需要变量token就行，X-Ys-Dt没发现他有什么变化，可以通过抓包拿到",
+		"refreshTokenCookie":"需要抓包获取X-Ys-Dt和authorization，其他的也要抓包，抓一次就貌似可以一劳永逸了"
+	}
+}

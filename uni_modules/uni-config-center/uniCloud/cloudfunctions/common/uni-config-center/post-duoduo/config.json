@@ -1,0 +1,107 @@
+{
+	"getCourierInfo": [{
+		"method": "POST",
+		"url": "https://mdkd-api.pinduoduo.com/api/orion/op/package/search/content",
+		"headers": {
+			"User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; SM-N9700 Build/PQ3B.190801.06161913)station_android_version/3.8.0 PackegeName/com.xunmeng.station AppVersion/3.8.0 DeviceType/Mobile AppName/DDStore pstation_android_version/3.8.0",
+			"Accept-Encoding": "gzip",
+			"content-type": "application/json;charset=utf-8",
+			"p-appname": "DDStore",
+			"verifyauthtoken": "PY8IH3e8Y8JkPwvBjLrBFA4bdc2d46274077ff6",
+			"device-name": "SM-N9700",
+			"etag": "1LNVYCSN",
+			"accesstoken": "从数据库获取token",
+			"anti-content": "从数据库获取antiContent",
+			"referer": "Android",
+			"mcmd-enc": "AAAAAAAAAAAAAAAAAAAAAH97/sceJByxAkDejG5VVEuhDWRfsuvISEqdpG3oLuuWH3PEE3aWghMqVWBq9WRLNg==",
+			"pdd-config": "V4:069.030800",
+			"vip": "81.69.68.235",
+			"Cookie": "从数据库获取cookie"
+		},
+		"data": {
+			"page_index": 1,
+			"content": "从前端获取code",
+			"selected": false,
+			"offset": 0,
+			"search_type": "从前端获取type，注意需要和兔喜兼容，1:手机号，3:快递单号"
+		}
+	}, {
+		"method": "POST",
+		"url": "https://mdkd-api.pinduoduo.com/api/orion/op/package/search/content",
+		"headers": {
+			"User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; SM-N9700 Build/PQ3B.190801.06161913)station_android_version/3.8.0 PackegeName/com.xunmeng.station AppVersion/3.8.0 DeviceType/Mobile AppName/DDStore pstation_android_version/3.8.0",
+			"Accept-Encoding": "gzip",
+			"content-type": "application/json;charset=utf-8",
+			"p-appname": "DDStore",
+			"verifyauthtoken": "PY8IH3e8Y8JkPwvBjLrBFA4bdc2d46274077ff6",
+			"device-name": "MI 9",
+			"etag": "2hVVnhfE",
+			"accesstoken": "从数据库获取token",
+			"anti-content": "从数据库获取antiContent",
+			"referer": "Android",
+			"mcmd-enc": "AAAAAAAAAAAAAAAAAAAAAH97/sceJByxAkDejG5VVEuhDWRfsuvISEqdpG3oLuuWH3PEE3aWghMqVWBq9WRLNg==",
+			"pdd-config": "V4:069.030800",
+			"vip": "81.69.238.99",
+			"Cookie": "从数据库获取cookie"
+		},
+		"data": {
+			"page_index": 1,
+			"content": "从前端获取code",
+			"selected": false,
+			"offset": 0,
+			"search_type": "从前端获取type，注意需要和兔喜兼容，1:手机号，3:快递单号"
+		}
+	}],
+	"refreshTokenCookie": [{
+		"method": "POST",
+		"url": "https://mdkd-api.pinduoduo.com/sixers/api/user/loginByMobile",
+		"headers": {
+			"User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; SM-N9700 Build/PQ3B.190801.06161913)station_android_version/3.8.0 PackegeName/com.xunmeng.station AppVersion/3.8.0 DeviceType/Mobile AppName/DDStore pstation_android_version/3.8.0",
+			"Accept-Encoding": "gzip",
+			"content-type": "application/json;charset=utf-8",
+			"p-appname": "DDStore",
+			"verifyauthtoken": "PY8IH3e8Y8JkPwvBjLrBFA4bdc2d46274077ff6",
+			"device-name": "MI 9",
+			"etag": "2hVVnhfE",
+			"anti-content": "从数据库拿antiContent",
+			"referer": "Android",
+			"mcmd-enc": "AAAAAAAAAAAAAAAAAAAAAMb2AT3qoQufYThizCDRf3wEEKhkz/GKBJrdAPDI3tw3",
+			"pdd-config": "V4:069.030800",
+			"vip": "81.69.238.99",
+			"Cookie": "从数据库拿cookie"
+		},
+		"data": {
+		  "appIndex": "2",
+		  "mobile": "19074923286",
+		  "encryptedPassword": "MhvgyASqSJRdt8P1JzTaz6xT88m8kxzk9Gg6dqz8IqwyUyGyhIKrjT0C7Y1eOUs6IJm1o5Ae22J5\ndc8ODmtLdtf5oNeLoPhccRkY/NSZQMq+suBDwvQUoClvW5mO5kTYhfyDsaX+qVybYUgbPHlzyoqq\n/cw+rm7C+rkbtTLBGwo=\n"
+		}
+	},{
+		"method": "POST",
+		"url": "https://mdkd-api.pinduoduo.com/sixers/api/user/loginByMobile",
+		"headers": {
+			"User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; SM-N9700 Build/PQ3B.190801.06161913)station_android_version/3.8.0 PackegeName/com.xunmeng.station AppVersion/3.8.0 DeviceType/Mobile AppName/DDStore pstation_android_version/3.8.0",
+			"Accept-Encoding": "gzip",
+			"content-type": "application/json;charset=utf-8",
+			"p-appname": "DDStore",
+			"verifyauthtoken": "PY8IH3e8Y8JkPwvBjLrBFA4bdc2d46274077ff6",
+			"device-name": "MI 9",
+			"etag": "2hVVnhfE",
+			"anti-content": "从数据库拿antiContent",
+			"referer": "Android",
+			"mcmd-enc": "AAAAAAAAAAAAAAAAAAAAAH97/sceJByxAkDejG5VVEuhDWRfsuvISEqdpG3oLuuWH3PEE3aWghMqVWBq9WRLNg==",
+			"pdd-config": "V4:069.030800",
+			"vip": "81.69.68.235",
+			"Cookie": "从数据库拿cookie"
+		},
+		"data": {
+			"appIndex": "2",
+			"mobile": "18420336923",
+			"encryptedPassword": "b4RujTVMMByhRuUdElJZWTkfGh/M3+eNKN2AcbZx+teCAEszIIcC/vOiFNarmnG456wYWI0eU164\nz8W3EEK0I8jeYt3GvnQLVC9VagUco4dz4tMnOZnCWpdWJEWwHuZjT5PAj2fonLWdOMyMVXxCf5Hz\nCTlHNEwhSLiHz9BNC2U=\n"
+		}
+	}],
+	"description": {
+		"getCourierInfo": "需要三个变量，token、cookie、antiContent，前两个refreshTokenCookie可以生产，antiContent只能人工输入",
+		"refreshTokenCookie": "需要抓包获取一个初始cookie和获得加密后的密码，其他的也要抓包，抓一次就貌似可以一劳永逸了"
+	}
+}
+
